@@ -1,0 +1,16 @@
+{
+  "appenders": [
+    { "type": "console" },
+    {
+      "type": "file", 
+      "pattern": "-yyyy-MM-dd",
+      "alwaysIncludePattern": true,
+      "filename": "logs/kipp.log", 
+      "maxLogSize": 1024,
+      "backups":3,
+      "category": "normal"    }
+  ],
+  "replaceConsole":true,
+  "levels":{"logInfo":"INFO"}
+
+}
